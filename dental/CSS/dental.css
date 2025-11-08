@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sintony:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sintony:wght@400;700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+--p-text:#93a0af;
+--text-black:#10244b;
+--text-blue:#4a7cd2;
+}
+
+
+
+
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+   }
+
+section.desktop {
+    float: left;
+    width: 100%;
+    background: rgb(74 124 210 / 10%);
+    /* padding-bottom: 49px; */
+    height: 593px;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    float: left;
+    width: 100%;
+ background: rgb(74 124 210 / 10%);
+
+}
+
+.logo {
+    width: 20%;
+    float: left;
+}
+
+.logo img {
+    height: 34px;
+    padding-left: 42px;
+    padding-top: 32px;
+}
+
+.navbar {
+    float: left;
+    width: 50%;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding-left: 35px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #10244b;
+    font-weight: 600;
+    padding-top: 13px;
+    font-size: 15px;
+}
+
+.navbar ul li {
+    padding-top: 25px;
+}
+
+.button-A {
+    float: left;
+    width: 30%;
+    padding-top: 29px;
+    /* padding-left: 0px; */
+}
+
+.button-A a {
+    padding-left: 87px;
+}
+
+button.Appointment {
+    background: #4a7cd2;
+    color: white;
+    border: none;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    width: 180px;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.right {
+    float: left;
+    width: 50%;
+}
+
+h1 {
+    color: #4a7cd2;
+    font-size: 16px;
+    padding-top: 36px;
+    font-weight: 600;
+}
+
+.right h2 {
+    font-size: 55px;
+    margin: 0;
+    font-weight: 600;
+    line-height: 63px;
+    color: #10244b;
+}
+
+.right p {
+    font-size: 16px;
+    color: #93a0af;
+    line-height: 26px;
+    padding-top: 12px;
+}
+
+.right a {
+    padding: 0;
+}
+
+button.Appointment2 {
+    background: #4a7cd2;
+    color: white;
+    border: none;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    width: 180px;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.google {
+    float: left;
+    width: 100%;
+    display: flex;
+}
+
+.google div {
+    padding-right: 21px;
+    font-size: 15px;
+    padding-top: 37px;
+    font-weight: 400;
+    color: #10244b;
+}
+
+.left {
+    width: 50%;
+    float: right;
+    position: relative;
+}
+
+.left img {
+	height: 542px;
+	width: 543px;
+	padding-top: 50px;
+	padding-left: 62px;
+}
+.watch {
+    background: #000a5b;
+    color: white;
+    width: 52%;
+    padding-bottom: 26px;
+    padding-top: 26px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 174px;
+    right: -13px;
+    
+}
+
+.watch h3 {
+    margin: 0;
+    font-size: 20px;
+    padding-left: 99px;
+}
+
+.watch p {
+    margin: 0;
+    padding-left: 101px;
+    font-size: 16px;
+    opacity: 0.9;
+    padding-top: 8px;
+}
+
+i.fa-solid.fa-clock {
+    position: absolute;
+    font-size: 55px;
+    left: 27px;
+    bottom: 26px;
+}
+
+.call {
+    width: 53%;
+    position: absolute;
+    bottom: 48px;
+    background: white;
+    border-radius: 22px;
+    left: 61px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+i.fa-solid.fa-phone {
+    color: #4a7cd2;
+    position: absolute;
+    bottom: 29px;
+    left: 19px;
+    font-size: 52px;
+} 
+.call h3 {
+    color: #10244b;
+    font-weight: 600;
+    padding-left: 93px;
+    font-size: 19px;
+    margin: 0;
+}
+
+.call p {
+    color: #93a0af;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 94px;
+    margin: 0;
+    padding-top: 8px;
+}
+
+section.content {
+    float: left;
+    width: 100%;
+    padding-top: 94px;
+}
+
+.right-content {
+    float: left;
+    width: 50%;
+}
+
+span.d1 {
+    padding-left: 67px;
+}
+
+span.d1 img {
+    height: 208px;
+    width: 205px;
+    border-radius: 16px;
+    /* position: absolute; */
+    right: 1p;
+}
+
+span.d2 img {
+    height: 275px;
+    /* padding-top: 19px; */
+    width: 274px;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+
+span.d3 img {
+    height: 358px;
+    position: absolute;
+    left: 29px;
+    bottom: 96px;
+    width: 282px;
+    border-radius: 20px;
+}
+
+span.d3{
+    position: relative;
+}
+
+.left-content {
+    width: 50%;
+    float: left;
+}
+
+.left-content h2 {
+    padding-left: 37px;
+    font-size: 16px;
+    color: #4a7cd2;
+    font-weight: 600;
+}
+
+.left-content h3 {
+    font-size: 44px;
+    padding-left: 32px;
+    margin: 0;
+    font-weight: 600;
+    line-height: 55px;
+}
+
+.left-content p {
+    color: #93a0af;
+    padding-left: 33px;
+    line-height: 28px;
+}
+
+.left-content ul li {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 31px;
+}
+
+.points {
+    float: left;
+    width: 43%;
+    padding-left: 37px;
+}
+
+.points span {
+    line-height: 28px;
+    font-weight: 600;
+    color: #10244b;
+    padding-left: 13px;
+}
+
+span.adult {
+    padding-left: 28px;
+}
+
+.left-content button {
+    margin-left: 36px;
+    margin-top: 19px;
+}
+
+section.content-2 {
+    padding-top: 126px;
+    float: left;
+    width: 100%;
+    padding-bottom: 103px;
+}
+
+.brush {
+    float: left;
+    width: 25%;
+}
+
+.brush img {
+    height: 76px;
+}
+
+img.d5 {
+    height: 64px;
+    padding-top: 10px;
+}
+
+img.d6 {
+    height: 64px;
+    padding-top: 12px;
+}
+
+img.d7 {
+    height: 71px;
+    padding-top: 8px;
+}
+
+.brush h2 {
+    font-size: 20px;
+    color: #10244b;
+    font-weight: 600;
+    padding-top: 13px;
+    font-family: "Urbanist", sans-serif;
+}
+
+.brush p {
+    color: #93a0af;
+    line-height: 27px;
+}
+
+section.content-3 {
+    float: left;
+    width: 100%;
+    background: rgb(74 124 210 / 10%);
+    padding-bottom: 88px;
+}
+
+.team {
+    float: left;
+    width: 100%;
+    padding-top: 112px;
+}
+
+.team h2 {
+    text-align: center;
+    font-size: 16px;
+    color: #4a7cd2;
+    font-weight: 600;
+}
+
+.team h3 {
+    text-align: center;
+    color: #10244b;
+    font-size: 45px;
+    margin: 2px;
+    font-weight: 600;
+}
+
+.team p {
+    text-align: center;
+    color: #93a0af;
+    line-height: 28px;
+}
+
+.teammates img {
+    height: 352px;
+    width: 277px;
+}
+
+.teammates {
+    float: left;
+    width: 25%;
+    padding-top: 25px;
+}
+
+.numbers {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.numbers h2 {
+    font-weight: 600;
+    font-size: 35px;
+    margin: 0;
+    padding-top: 100px;
+}
+
+.numbers p {
+    margin: 10px;
+    color: #93a0af;
+    font-weight: 400;
+}
+
+section.player {
+    float: left;
+    width: 100%;
+}
+
+a.Blog img {
+	width: 100%;
+	border-radius: 20px;
+	margin-top: 106px;
+	
+}
+
+a.Blog {
+    position: relative;
+}
+
+.play {
+    position: relative;
+}
+
+i.fa-solid.fa-play {
+    position: absolute;
+    background: transparent;
+    font-size: 29px;
+    bottom: 187px;
+    right: 542px;
+    border: 2px white solid;
+    border-radius: 100px;
+    padding: 50px;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+i.fa-solid.fa-play:hover {
+    background: #4a7cd2;
+    border: #4a7cd2;
+}
+
+.about {
+    float: left;
+    width: 30%;
+}
+
+section.footer {
+    float: left;
+    width: 100%;
+    background: #071630;
+    padding-bottom: 73px;
+    margin-top: 120px;
+}
+
+.about p {
+    color: rgb(255 255 255 / 60%);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.about img {
+    height: 46px;
+    padding-top: 102px;
+}
+
+.about ul {
+    padding: 0;
+}
+
+.about i {
+    padding-right: 25px;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.about ul {
+    padding: 0;
+    padding-left: 19px;
+    padding-top: 13px;
+}
+
+.company {
+    float: left;
+    width: 20%;
+    padding-top: 63px;
+}
+
+.company p {
+    color: rgb(255 255 255 / 60%);
+    font-weight: 400;
+    padding-left: 56px;
+}
+
+.company h2 {
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    padding-left: 51px;
+    padding-top: 38px;
+    padding-bottom: 12px;
+}
+
+.our-services {
+    float: left;
+    width: 20%;
+     padding-top: 63px;
+}
+
+.our-services h2 {
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    padding-top: 37px;
+    padding-bottom: 12px;
+}
+
+.our-services p {
+    color: rgb(255 255 255 / 60%);
+    font-weight: 400;
+}
+
+.conatact {
+    float: left;
+    width: 30%;
+     padding-top: 63px;
+}
+
+.conatact h2 {
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    padding-top: 37px;
+    padding-bottom: 13px;
+}
+
+.conatact h3 {
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 9px;
+    padding-left: 24px;
+}
+
+.conatact p {
+    color: rgb(255 255 255 / 60%);
+    margin: 0;
+    font-weight: 400;
+}
+
+.clinic-location {
+    padding-bottom: 30px;
+    position: relative;
+    
+}
+
+.call-us {
+    padding-bottom: 28px;
+    position: relative;
+}
+
+i.fa-solid.fa-location-dot {
+    position: absolute;
+    top: 3px;
+    font-size: 15px;
+}
+
+i.fa-sharp.fa-solid.fa-phone {
+    font-size: 15px;
+    position: absolute;
+    top: 4px;
+    left: -2px;
+}
+
+.Message {
+    position: relative;
+}
+
+i.fa-solid.fa-envelope {
+    position: absolute;
+    top: 4px;
+    font-size: 15px;
+    left: -3px;
+}
+
+
+ 
+
+
+.subtitle {
+	color: blue;
+	font-size: 16px;
+	font-weight: 600;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+
+h2 {
+	font-size: 50px;
+	color: #1a2b53;
+}
+
+
+.left-item {
+	width: 40%;
+	float: left;
+}
+.left-sec {
+	width: 72%;
+}
+
+.faq-item {
+	font-size: 22px;
+	padding-top: 13px;
+	padding-left: 43px;
+}
+
+.back-img:hover {
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+
+
+
+.girl-pic:hover {
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
